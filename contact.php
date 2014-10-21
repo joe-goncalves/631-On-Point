@@ -37,9 +37,11 @@
 			mail($to, $subjecthead, $message, $headers);
 			mail($alias, $subjecthead, $message, $headers);
 			include 'includes/header.php';
-			echo"<div class='main-content contact-us'>";
-			echo "<h2>Thank you for your submission, someone will be in contact with you shortly</h2>";
-			echo "</div>";
+			echo"<div class='row'>".
+						"<div class='col-md-12'>".
+							"<h2>Thank you for your submission, someone from the team be in contact with you shortly!</h2>".
+						"</div>".
+					 "</div>";
 			include 'includes/footer.php';
 			exit();
 		}else{
@@ -48,40 +50,119 @@
 
 	}
 ?>
-
 <? $pagetitle = 'Contact on Point Locating' ?>
 <? $metadescription = 'Contact on point locating for all your utility markout projects' ?>
 <? $metakeywords = 'on point locating, onpoint locating, 631 on point, 631 onpoint' ?>
 <? $canonical = 'http://www.631onpoint.com/contact.php' ?>
 <?php include 'includes/header.php'; ?>
-<div class="main-content contact-us">
-<h1>Contact Us</h1>
-<h3 class="error"><?=$topErrMsg?></h3>
-<div>
-<img class="right-photo" src="http://maps.googleapis.com/maps/api/staticmap?center=1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741&zoom=13&scale=false&size=500x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true&markers=size:mid%7Ccolor:green%7C1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741" alt="Google Map of 1170 Lincoln Avenue, Suite 4 Holbrook, NY 11741">
-<form method="post" name="contactForm" id="contactForm">
-	<label class="<?=$nm_error_status?>" for="name">Name<span class="hidden <?=$nm_error_status?>">*</span></label>
-	<input type='text' name="name" value="<?=$name?>"/>
-	<label class="<?=$email_error_status?>" for="email">Email Address<span class="hidden <?=$email_error_status?>">*</span></label>
-	<input type='text' name="email" value="<?=$email?>"/>
-	<label class="<?=$sub_error_status?>" for="subject">Subject<span class="hidden <?=$sub_error_status?>">*</span></label>
-	<input type='text' name="subject" value="<?=$subject?>"/>
-	<label class="<?=$msg_error_status?>" for="msg">Message<span class="hidden <?=$msg_error_status?>">*</span></label>
-	<textarea name="msg"><?=$msg?></textarea>
-	<input name='contactSubmit' id='contactSubmit' type="submit">
-	<div><?print_r($hold);?></div>
-</form> 
-<p><strong>Call Us:</strong>(631)-ONPOINT -or-</p>
-<p><strong>&nbsp;</strong>(631) 667-6468 – Suffolk County</p>
-<p><strong>&nbsp;</strong>(516) 231-1150 – Nassau County</p>
-<p><strong>&nbsp;</strong>(862) 258-1895 – New Jersey</p>
-<p><strong>&nbsp;</strong>(203) 857-9901 – Connecticut </p><br/>
-<p><strong>Fax:</strong>(631) 589-1157</p><br/>
-<p><strong>Address:</strong>1170 Lincoln Avenue, Suite 4</p>
-<p><strong>&nbsp;</strong>Holbrook, NY 11741 </p>
-<p><strong>Email</strong>support@631onpoint.com</p>
+<script> 
+$(document).ready(function() {
+    $('#contactForm').bootstrapValidator({
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            name: {
+                message: 'Please enter a name',
+                validators: {
+                    notEmpty: {
+                        message: 'Name is required and cannot be empty'
+                    }
+                }
+            },
+            msg: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter a message'
+                    }
+                }
+            },
+            subject: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter a subject'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'The email is required and cannot be empty'
+                    },
+                    emailAddress: {
+                        message: 'The input is not a valid email address'
+                    }
+                }
+            }
+        }
+    });
+});
+
+</script>
+<div class='row'>
+	<div class="col-md-6">
+		<h1>Contact Us</h1>
+		<h3 class="error"><?=$topErrMsg?></h3>
+		<form method="post" role='false' name="contactForm" id="contactForm">
+			<div class="form-group">
+				<label class="<?=$nm_error_status?>" for="name">Name<span class="hidden <?=$nm_error_status?>">*</span></label>
+				<input class="form-control" type='text' name="name" value="<?=$name?>"/>
+			</div>
+			<div class="form-group">
+			<label class="<?=$email_error_status?>" for="email">Email Address<span class="hidden <?=$email_error_status?>">*</span></label>
+			<input class="form-control" type='text' name="email" value="<?=$email?>"/>
+			</div>
+			<div class="form-group">
+			<label class="<?=$sub_error_status?>" for="subject">Subject<span class="hidden <?=$sub_error_status?>">*</span></label>
+			<input class="form-control" type='text' name="subject" value="<?=$subject?>"/>
+			</div>
+			<div class="form-group">
+			<label class="<?=$msg_error_status?>" for="msg">Message<span class="hidden <?=$msg_error_status?>">*</span></label>
+			<textarea class="form-control" name="msg"><?=$msg?></textarea>
+			</div>
+			<input name='contactSubmit' class="btn btn-default" id='contactSubmit' type="submit">
+		</form> 
+	</div>
+	<div class="col-md-6">
+		<img class="right-photo" src="http://maps.googleapis.com/maps/api/staticmap?center=1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741&zoom=13&scale=false&size=500x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true&markers=size:mid%7Ccolor:green%7C1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741" alt="Google Map of 1170 Lincoln Avenue, Suite 4 Holbrook, NY 11741">
+	</div>
 </div>
-<div class="clear"></div>
+<div class='row'>
+	<div class='col-md-2'>
+		<strong>Call Us:</strong>
+	</div>
+	<div class='col-md-4'>
+		<ul class='list-unstyled'>
+			<li>(631)-ONPOINT -or-</li>
+			<li>(631) 667-6468 – Suffolk County</li>
+			<li>(516) 231-1150 – Nassau County</li>
+			<li>(862) 258-1895 – New Jersey</li>
+			<li>(203) 857-9901 – Connecticut</li>
+		</ul>
+	</div>
+</div>
+<div class='row'>
+	<div class='col-md-2'>
+		<strong>Fax:</strong>
+	</div>
+	<div class='col-md-4'>
+		(631) 589-1157
+	</div>
+</div>
+<div class='row'>
+	<div class='col-md-2'>
+		<strong>Address:</strong>
+	</div>
+	<div class='col-md-4'>
+		<address>
+		  1170 Lincoln Avenue, Suite 4<br>
+		  Holbrook, NY 11741<br>	
+		  <a 	href="mailto:support@631onpoint.com">support@631onpoint.com</a>
+		</address>
+	</div>
 </div>
 <?php include 'includes/footer.php'; ?>
 

@@ -1,9 +1,21 @@
-<div id='foot_bar'>
-<div class="fb-follow-foot"><script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script><script type="IN/FollowCompany" data-id="3605043" data-counter="none"></script><div class="fb-follow" data-href="https://www.facebook.com/onpointlocating" data-colorscheme="dark" data-layout="standard" data-show-faces="false"></div></div>
-<span><a href="/sitemap.php">Sitemap</a>&nbsp;&nbsp;|&nbsp;&nbsp;(c) 631 On Point Locating</span>
-</div>
-</div>
-<div class="areas">Servicing Nassau and Suffolk Counties on Long Island, New York City and Queens.</div>
+	<div class="row footer">
+		<div class='row'>
+			<div class="col-md-4 text-center">
+				<a href='https://www.linkedin.com/company/3605043?trk=cws-btn-overview-0-0'>
+					<i class="fa fa-linkedin-square"></i>&nbsp;<small>see us on LinkedIn</small>
+				</a>
+			</div>
+			<div class="col-md-4 text-center">
+				<a href='https://www.facebook.com/onpointlocating'>
+					<i class="fa fa-facebook-square"></i>&nbsp;<small>like us on Facebook</small>
+				</a>
+			</div>
+			<div class="col-md-4 text-center">
+				<a href="./sitemap.php">Sitemap</a>&nbsp;&nbsp;|&nbsp;&nbsp;(c) 631 On Point Locating
+			</div>
+		</div>
+	</div>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,5 +26,10 @@
   ga('send', 'pageview');
 
 </script>
+
+</div> <!-- closes div#container -->
+</div>
+<p class='text-center'>Servicing Nassau and Suffolk Counties on Long Island, New York City and Queens.</p>
 </body>
 </html>
+		

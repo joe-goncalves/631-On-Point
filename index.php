@@ -3,39 +3,79 @@
 <? $metakeywords = 'Utility locatingm locating electric lines, ground penetrating radar, leak detection, camera inspections, locate underground structures, Utility Markout, underground imaging, utility detection' ?>
 <? $canonical = 'http://www.631onpoint.com/' ?>
 <?php include './includes/header.php'; ?>
-<div id='container'>
-  <div id="quad-box">
-  <a href= "/gpr.php" class='image-holder first'>
-   <img src="images/02.jpg" alt="long island and new york city ground penetrating radar"/><div><h3>Ground Penetrating Radar</h3></div>
-  </a>
-  <a href= "/leak-detection.php" class='image-holder'>
-    <img src="./images/03.jpeg" alt="long island and new york city leak detection"/><div><h3>Leak Detection</h3></div>
-  </a>
-  <a href= "camera-inspections.php" class='image-holder'>
-    <img src="./images/04.jpg" alt="long island and new york city camera pipe inspections"/><div><h3>Camera Inspections</h3></div>
-  </a>
-  <a href= "utility-locating.php" class='image-holder last'>
-    <img src="./images/05.png" alt="long island and new york city utility locating"/><div><h3>Utility Locating</h3></div>
-  </a>
-  <div class='clear'></div>
-</div>
-<div class="main-box">
-<h2>Most of our work comes from referrals.</h2>
-<img src="./images/office-staff-sm.jpg" class="office-img" alt="on point locating hobrook ny office"/>  
-<p class="main-box-p"> We do work for major engineering firms, cesspool companies, land surveyors, environmental firms etc.</p>
-<p class="main-box-p top0">With a fully-staffed office, we provide reports for the jobs we perform. We pride ourselves on excellent customer service, supplying proposals, reports, and insurance information quickly.</p> 
-<p class="top0"><a class="green-link" href="sample-reports.php"><img src="images/report-slableak-sm.jpg" class="report-sm" alt="read a sample markout report">Click here to view sample reports.</a></p>
-</div>
-<img src="./images/mainimg.jpg" class="hp-main-img" alt="long island and new york utility locating"/>  
-<div class='clear'></div>
-<div class='image-holder2' style="width:100%">
-  <img src="./images/markout-large.jpg" alt="utility markout services and gpr locating" />
-    <div class="text-box">
-    <p>Our goal is accuracy and reliability. We provide same day service, usually within 2 hours.  We can save you time, money, and aggravation.</p>
+<div class="row">
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="thumbnail">
+      <a href= "./gpr.php">
+        <img src="./images/ss1_sq.jpg" class="img-responsive " alt="long island and new york city ground penetrating radar"/>
+        <div class="caption services">
+          Ground Penetrating Radar
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="thumbnail">
+      <a href= "./leak-detection.php">
+        <img src="./images/03.jpeg" class="img-responsive " alt="long island and new york city leak detection"/>
+        <div class="caption services">
+          Leak Detection
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="thumbnail">
+        <a href= "camera-inspections.php">
+          <img src="./images/04.jpg"  class="img-responsive " alt="long island and new york city camera pipe inspections"/>
+          <div class="caption services">
+            Camera Inspections
+          </div>
+        </a>
+      </div>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="thumbnail">
+      <a href= "utility-locating.php">
+        <img src="./images/05.png" class="img-responsive "  alt="long island and new york city utility locating"/>
+        <div class="caption services">
+          Utility Locating
+        </div>
+      </a>
+    </div>
   </div>
 </div>
-  
-  <div class='clear'></div>
-
-   <a href="cost-effective.php"><p class="highlight-box">Are Markouts Cost-Effective?</p></a>
-<?php include 'includes/footer.php'; ?>
+<div class="row">
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <h4>Most of our work comes from referrals.</h4>
+    <div class="row">
+      <div class="col-md-5 col-sm-12 col-xs-12">
+        <img src="./images/office-staff-sm.jpg" class="img-responsive thumbnail" alt="on point locating hobrook ny office"/>  
+      </div>
+      <div class="col-md-7 col-sm-12 col-xs-12">
+        <p> We do work for major engineering firms, cesspool companies, land surveyors, environmental firms etc.</p>
+        <p>With a fully-staffed office, we provide reports for the jobs we perform. We pride ourselves on excellent customer service, supplying proposals, reports, and insurance information quickly.</p> 
+        <p><a class="green-link" href="sample-reports.php"><img src="images/report-slableak-sm.jpg" class="report-sm" alt="read a sample markout report">Click here to view sample reports.</a></p>
+       </div> 
+     </div> 
+  </div>
+  <div class="col-md-6 col-sm-6 col-xs-12">
+    <img src="./images/mainimg.jpg" class="office-img img-responsive thumbnail image-thumbnail" alt="on point locating hobrook ny office"/>  
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <div class='thumbnail'>
+      <img class="center-block img-responsive" src="./images/markout-large.jpg" alt="utility markout services and gpr locating" />
+      <div class="caption services">
+        <p class="center-block">Our goal is accuracy and reliability. We provide same day service, usually within 2 hours.  We can save you time, money, and aggravation.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <a href="cost-effective.php"><p class="highlight-box">Are Markouts Cost-Effective?</p></a>
+  </div>
+</div>
+<?php include './includes/footer.php';?>
