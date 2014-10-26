@@ -5,61 +5,106 @@
 <?php include 'includes/header.php'; ?>
 <div class='row'>
 	<div class='col-md-12'>
-		<h1>Utility Locating</h1>
+		<h1 class='text-center head-standout'>Utility Locating</h1>
 	</div>
 </div>
-
 <div class='row'>
 	<div class='col-md-12'>
-		On Point Locating can save you time and money by locating buried utilities before you start your project. Buried utilities can include electric service, water service, sewer service, communications like phone and cable TV, and others. They may pass through any area where work or digging needs to be done—to install a fence, sprinkler system, or even to plant a tree. If you don’t scan for buried utilities, you risk hitting one by accident—risking your budget, your service, and your safety.
+		<h3 class='no-top-marg no-bot-marg'>Need to make sure all of your utilities are marked?</h3	>
+		<p>Here at On Point we have experts that can mark out jobs of any size.</p>
 	</div>
 </div>
-
 <div class='row'>
 	<div class='col-md-12'>
-		<h2><em>"Your first call should be 811. Your second call should be us."</em></h2>
+		<h4 class='text-left no-top-marg no-bot-marg'><em>If an 811 mark out doesn’t cover the entirety of your work area, you should not proceed until you have marked out your private utilities.</em></h4>
 	</div>
 </div>
-
 <div class='row'>
-	<div class='col-md-12'>
-		811 is the "call before you dig" number, to mark out public utilities, free of charge to you. 811 does not cover private utilities, which are the responsibility of the property owner.
-	</div>
-</div>
-
-<div class='row'>
-	<div class='col-md-12'>	
-		You should call 811 before every project, to have the public utilities marked out. This prevents costly damage for which you could be liable, and prevents hazards to safety and life that could be much worse.
-		Buried utilities are considered "private" if they are installed after a service meter. The free 811 number does not cover any private buried utilities on your property or project. Private utilities may be buried anywhere to supply pools/spas, gas generators and other gas services, pools/spas, or lighting and power for detached garages.
-	</div>
-</div>
-
-<div class='row'>
-	<div class='col-md-5'>	
-		<div class='thumbnail'>
-			<img src="./images/multi-markout.jpg" style="width:400px;" alt="one property can contain a complex network of buried utilities"/>
-			<div class='caption'>
-				<em>one property can contain a complex network of buried utilities</em>
-			</div>
+	<div class='col-md-6'>
+		<div class='row'>
+			<div class="panel panel-default">
+		  		<div class="panel-body row">
+		  			<div class='col-md-3'>
+		    			<img src='./images/mayne_rev.jpg'/>	
+		    		</div>
+		    		<div class='col-md-9'>
+		    			<quote>“I needed a markout done in the city, and these guys got there on time. They did a very thorough job, and now they are my go-to guys for markouts.”</quote>
+		    				<br>
+		    			<em>- Joe Ferrara, Mayne Construction</em>
+					</div>
+		  		</div>
+		  	</div>
 		</div>
+		<p>We have:</p>
+		<ul>	
+			<li>Over 15 years of locating experience.</li>
+			<li>Cross checking with GPR eliminates potential hidden utilities.</li>
+			<li>Quick turnaround times and detailed job reports get you back to work faster, and with confidence!</li>
+		</ul>
+		<p>We locate and mark out all of the following:</p>
+		<ul>	
+			<li>Water service</li>
+			<li>Sewer and drainage</li>
+			<li>Irrigation and sprinkler lines</li>
+			<li>Electric service and site lighting</li>
+			<li>Propane and gas service</li>
+			<li>Cesspools and buried tanks</li>
+		</ul>
 	</div>
-	<div class='col-md-7'>
-		If an 811 mark out doesn’t cover the entirety of your work area, you should not proceed until you have marked out your private utilities. The risks involved with accidental utility damage on the private side are no different. Your very next step should be to call On Point Locating. We specialize in finding and marking out these private utilities, and ensuring that your project is ready to proceed with confidence.
+	<div class='col-md-6 right-demarked'>
 		<div class='row'>
 			<div class='col-md-12'>
-				<div class='row'>
-					<div class='col-md-12'>	
-						<h3>We locate:</h3>
-						<ul class='list-unstyled'>
-							<li>Water service</li>
-							<li>Sewer and drainage</li>
-							<li>Irrigation and sprinkler lines</li>
-							<li>Electric service and site lighting</li>
-							<li>Propane and gas service</li>
-							<li>Cesspools and buried tanks</li>
-						</ul>
-					</div>
-				</div>
+				<h2 class='text-center'><small><i class="fa fa-building"></i></small><i class="fa fa-building"></i>&nbsp;Previous Projects&nbsp;<i class="fa fa-building"></i><small><i class="fa fa-building"></i></small></h2>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				Marked out a complex network of utilities in a proposed work area for a community college
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/community college 3.jpg" class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/community college 1.jpg"  class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/community college 2.jpg" class='img-responsive thumbnail' alt=""/>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<hr>
+				Located air lines and surrounding utilities at a sewage treatment plant
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-21 15.22.59.jpg"  class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-21 15.23.06.jpg" class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-21 15.23.12.jpg" class='img-responsive thumbnail' alt=""/>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<hr>
+				Marked all the utilities in the area of a tank excavation at a gas station.
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-21 09.14.59.jpg"  class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-21 09.14.54.jpg" class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-21 09.14.50.jpg" class='img-responsive thumbnail' alt=""/>
 			</div>
 		</div>
 	</div>

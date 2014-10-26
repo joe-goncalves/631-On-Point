@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="<?= $metadescription?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="keywords" content="<?= $metakeywords?>, new york, long island, suffolk county, nassau county">
 		<meta charset="UTF-8">
 		<title><?= $pagetitle?></title>	
@@ -18,14 +19,15 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
    <?php 
+   /*
 	 if (substr($_SERVER["SERVER_NAME"],0,3) != "www"){
 		    header("HTTP/1.1 301 Moved Permanently");
         header("Location: ".$canonical);
    }
+   */
    ?>
   </head>
 	<body>
-  <div id='container'>
   <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -39,12 +41,6 @@
     <a href="/"><img src='./images/on-point.jpg' class='img-responsive' alt="On Point Locating - Utility Mark Out Specialists"/></a>
     <nav class="navbar navbar-default" role="navigation" id='nav-holder'>
       <div class="container-fluid">
-          <div class="row visible-xs">
-            <div class="col-lg-12">
-              <p class="bg-success"></p>
-              <a  href="tel:+16316676468"> <p class="bg-success call-now text-center">Call Now!</p></a>
-            </div>
-          </div>
           <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
@@ -52,6 +48,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>  
               </button>
+              <a  class="btn btn-success visible-xs" href="tel:+16316676468">Call Now!</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" id = 'nav-holder'>
           <ul class="nav navbar-nav">
@@ -59,7 +56,13 @@
                 <a href="index.php">Home</a>
               </li>
               <li>
-                <a href="about-us.php">About Us</a>
+                <a data-toggle="dropdown" class="dropdown-toggle">About Us</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="about-us.php">The Company</a></li>
+                  <li><a href="faq.php">FAQ</a></li>
+                  <li><a href="contact.php">Contact Us</a></li>
+                  <li><a href="./images/onpoint-pdf.pdf" target="_blank">Download Our Brochure</a></li>
+                </ul>
               </li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown">Services</a>
@@ -77,19 +80,14 @@
                 <a href="tech.php">Technology</a>
               </li>
               <li>
-                <a href="faq.php">FAQ</a>
-              </li>
-              <li>
-                <a href="contact.php">Contact Us</a>
-              </li>
-              <li>
                 <a href="sample-reports.php">Sample Reports</a>
               </li>
-              <li>
-                <a href="./images/onpoint-pdf.pdf" target="_blank">Download Our Brochure</a>
+              <li class='hidden-xs header-phone' >
+                <small><i class='fa fa-phone'></i>&nbsp;(631)&nbsp;667-6468</small>
               </li>
           </ul>
           </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </div>
+  <div id='container'>

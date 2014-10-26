@@ -6,7 +6,7 @@
 <?php include './includes/thermal-header.php'; ?>
 		<div class='row'>
 			<div class='col-md-12'>
-				<h4>Overview</h4>
+				<h2>Overview</h2>
 			</div>
 		</div>
 		<div class='row'>

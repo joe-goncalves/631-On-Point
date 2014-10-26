@@ -103,9 +103,12 @@ $(document).ready(function() {
 
 </script>
 <div class='row'>
-	<div class="col-md-6">
+	<div class="col-md-12">
 		<h1>Contact Us</h1>
-		<h3 class="error"><?=$topErrMsg?></h3>
+	</div>
+</div>
+<div class='row'>
+	<div class="col-md-6">	
 		<form method="post" role='false' name="contactForm" id="contactForm">
 			<div class="form-group">
 				<label class="<?=$nm_error_status?>" for="name">Name<span class="hidden <?=$nm_error_status?>">*</span></label>
@@ -123,45 +126,49 @@ $(document).ready(function() {
 			<label class="<?=$msg_error_status?>" for="msg">Message<span class="hidden <?=$msg_error_status?>">*</span></label>
 			<textarea class="form-control" name="msg"><?=$msg?></textarea>
 			</div>
-			<input name='contactSubmit' class="btn btn-default" id='contactSubmit' type="submit">
+			<input name='contactSubmit' class="btn btn-success" id='contactSubmit' type="submit">
 		</form> 
 	</div>
 	<div class="col-md-6">
-		<img class="right-photo" src="http://maps.googleapis.com/maps/api/staticmap?center=1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741&zoom=13&scale=false&size=500x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true&markers=size:mid%7Ccolor:green%7C1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741" alt="Google Map of 1170 Lincoln Avenue, Suite 4 Holbrook, NY 11741">
-	</div>
-</div>
-<div class='row'>
-	<div class='col-md-2'>
-		<strong>Call Us:</strong>
-	</div>
-	<div class='col-md-4'>
-		<ul class='list-unstyled'>
-			<li>(631)-ONPOINT -or-</li>
-			<li>(631) 667-6468 – Suffolk County</li>
-			<li>(516) 231-1150 – Nassau County</li>
-			<li>(862) 258-1895 – New Jersey</li>
-			<li>(203) 857-9901 – Connecticut</li>
-		</ul>
-	</div>
-</div>
-<div class='row'>
-	<div class='col-md-2'>
-		<strong>Fax:</strong>
-	</div>
-	<div class='col-md-4'>
-		(631) 589-1157
-	</div>
-</div>
-<div class='row'>
-	<div class='col-md-2'>
-		<strong>Address:</strong>
-	</div>
-	<div class='col-md-4'>
-		<address>
-		  1170 Lincoln Avenue, Suite 4<br>
-		  Holbrook, NY 11741<br>	
-		  <a 	href="mailto:support@631onpoint.com">support@631onpoint.com</a>
-		</address>
+		<div class='row'>
+			<div class='col-md-4'>
+				<strong>Call Us:</strong>
+			</div>	
+			<div class='col-md-8'>
+				<ul class='list-unstyled'>
+					<li>(631)-ONPOINT -or-</li>
+					<li>(631) 667-6468 – Suffolk County</li>
+					<li>(516) 231-1150 – Nassau County</li>
+					<li>(862) 258-1895 – New Jersey</li>
+					<li>(203) 857-9901 – Connecticut</li>
+				</ul>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-4'>
+				<strong>Fax:</strong>
+			</div>
+			<div class='col-md-8'>
+				<p>(631) 589-1157<p>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-4'>
+				<strong>Address:</strong>
+			</div>
+			<div class='col-md-8'>
+				<address>
+		  			1170 Lincoln Avenue, Suite 4<br>
+		  			Holbrook, NY 11741<br>	
+		  			<a href="mailto:support@631onpoint.com">support@631onpoint.com</a>
+				</address>
+			</div>
+		</div>
+		<div class='row'>
+			<div class="col-md-12">
+				<img class="right-photo" src="http://maps.googleapis.com/maps/api/staticmap?center=1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741&zoom=13&scale=false&size=500x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true&markers=size:mid%7Ccolor:green%7C1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741" alt="Google Map of 1170 Lincoln Avenue, Suite 4 Holbrook, NY 11741">
+			</div>
+		</div>
 	</div>
 </div>
 <?php include 'includes/footer.php'; ?>

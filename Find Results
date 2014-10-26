@@ -1,0 +1,211 @@
+Searching 134 files for "<a"
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/contact.php:
+  158  	</div>
+  159  	<div class='col-md-4'>
+  160: 		<address>
+  161  		  1170 Lincoln Avenue, Suite 4<br>
+  162  		  Holbrook, NY 11741<br>	
+  163: 		  <a class="link-in-container" href="mailto:support@631onpoint.com">support@631onpoint.com</a>
+  164  		</address>
+  165  	</div>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/includes/footer.php:
+    2  		<div class='row'>
+    3  			<div class="col-md-4 text-center">
+    4: 				<a href='https://www.linkedin.com/company/3605043?trk=cws-btn-overview-0-0'>
+    5  					<i class="fa fa-linkedin-square"></i>&nbsp;<small>see us on LinkedIn</small>
+    6  				</a>
+    7  			</div>
+    8  			<div class="col-md-4 text-center">
+    9: 				<a href='https://www.facebook.com/onpointlocating'>
+   10  					<i class="fa fa-facebook-square"></i>&nbsp;<small>like us on Facebook</small>
+   11  				</a>
+   12  			</div>
+   13  			<div class="col-md-4 text-center">
+   14: 				<a href="./sitemap.php">Sitemap</a>&nbsp;&nbsp;|&nbsp;&nbsp;(c) 631 On Point Locating
+   15  			</div>
+   16  		</div>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/includes/header.php:
+   40  <div id="content" class="container-fluid">
+   41    <div id="header-content">
+   42:     <a href="/"><img src='./images/on-point.jpg' class='img-responsive' alt="On Point Locating - Utility Mark Out Specialists"/></a>
+   43      <nav class="navbar navbar-default" role="navigation" id='nav-holder'>
+   44        <div class="container-fluid">
+   ..
+   46              <div class="col-lg-12">
+   47                <p class="bg-success"></p>
+   48:               <a  href="tel:+16316676468"> <p class="bg-success call-now text-center">Call Now!</p></a>
+   49              </div>
+   50            </div>
+   ..
+   60            <ul class="nav navbar-nav">
+   61                <li>
+   62:                 <a href="index.php">Home</a>
+   63                </li>
+   64                <li>
+   65:                 <a href="about-us.php">About Us</a>
+   66                </li>
+   67                <li class="dropdown">
+   68:                 <a class="dropdown-toggle" data-toggle="dropdown">Services</a>
+   69                  <ul class="dropdown-menu" role="menu">
+   70:                   <li><a href="./gpr.php">Ground Penetrating Radar</a></li>
+   71:                   <li><a href="./utility-locating.php">Utilitity Locating</a></li>
+   72:                   <li><a href="./camera-inspections.php">Camera Inspections</a></li>
+   73:                   <li><a href="./thermal-camera-inspections.php">Thermal Camera Inspections</a></li>
+   74:                   <li><a href="./leak-detection.php">Leak Detection</a></li>
+   75:                   <li><a href="./pool-line-leaks.php">Pool Line Leak Detection</a></li>
+   76:                   <li><a href="./smoke-tests.php">Smoke Tests</a></li>
+   77                  </ul>
+   78                </li>
+   79                <li>
+   80:                 <a href="tech.php">Technology</a>
+   81                </li>
+   82                <li>
+   83:                 <a href="faq.php">FAQ</a>
+   84                </li>
+   85                <li>
+   86:                 <a href="contact.php">Contact Us</a>
+   87                </li>
+   88                <li>
+   89:                 <a href="sample-reports.php">Sample Reports</a>
+   90                </li>
+   91                <li>
+   92:                 <a href="./images/onpoint-pdf.pdf" target="_blank">Download Our Brochure</a>
+   93                </li>
+   94            </ul>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/includes/thermal-header.php:
+   19  	<div class='col-md-3'>
+   20  		<ul class='list-group'>
+   21: 			<li class='list-group-item'><a class="link-in-container" href="thermal-camera-inspections.php">Overview</a></li>
+   22: 			<li class='list-group-item'><a class="link-in-container" href="thermal-energy-loss.php">Energy Loss</a></li>
+   23: 			<li class='list-group-item'><a class="link-in-container" href="thermal-electrical-inspections.php">Electrical Inspection</a></li>
+   24: 			<li class='list-group-item'><a hclass="link-in-container" ref="thermal-moisture-mold.php">Moisture and Mold Detection</a></li>
+   25: 			<li class='list-group-item'><a class="link-in-container" href="thermal-roof-leaks.php">Roof Leaks</a></li>
+   26  		</ul>
+   27  	</div>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/index.php:
+    7    <div class="col-md-3 col-sm-6 col-xs-12">
+    8      <div class="thumbnail">
+    9:       <a href= "./gpr.php">
+   10          <img src="./images/ss1_sq.jpg" class="img-responsive " alt="long island and new york city ground penetrating radar"/>
+   11          <div class="caption services">
+   ..
+   17    <div class="col-md-3 col-sm-6 col-xs-12">
+   18      <div class="thumbnail">
+   19:       <a href= "./leak-detection.php">
+   20          <img src="./images/03.jpeg" class="img-responsive " alt="long island and new york city leak detection"/>
+   21          <div class="caption services">
+   ..
+   27    <div class="col-md-3 col-sm-6 col-xs-12">
+   28        <div class="thumbnail">
+   29:         <a href= "camera-inspections.php">
+   30            <img src="./images/04.jpg"  class="img-responsive " alt="long island and new york city camera pipe inspections"/>
+   31            <div class="caption services">
+   ..
+   37    <div class="col-md-3 col-sm-6 col-xs-12">
+   38      <div class="thumbnail">
+   39:       <a href= "utility-locating.php">
+   40          <img src="./images/05.png" class="img-responsive "  alt="long island and new york city utility locating"/>
+   41          <div class="caption services">
+   ..
+   56          <p> We do work for major engineering firms, cesspool companies, land surveyors, environmental firms etc.</p>
+   57          <p>With a fully-staffed office, we provide reports for the jobs we perform. We pride ourselves on excellent customer service, supplying proposals, reports, and insurance information quickly.</p> 
+   58:         <p><a class="green-link" href="sample-reports.php"><img src="images/report-slableak-sm.jpg" class="report-sm" alt="read a sample markout report">Click here to view sample reports.</a></p>
+   59         </div> 
+   60       </div> 
+   ..
+   76  <div class="row">
+   77    <div class="col-lg-12">
+   78:     <a href="cost-effective.php"><p class="highlight-box">Are Markouts Cost-Effective?</p></a>
+   79    </div>
+   80  </div>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/leak-detection.php:
+   17  		We utilize three different methods of leak detection to insure accuracy:
+   18  		<ol>
+   19: 			<li><a class="link-in-container" href="thermal-camera-inspections.php">Infrared Cameras</a> - to visibly detect where the leaks originate from behind walls</li>
+   20  			<li>Acoustically - our equipment can electronically pick up the slightest sound so we can pin point where the leak is</li>
+   21  			<li>Helium Testing - we pump helium into the line, and any place that helium escapes can be pick up through our scanners</li>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/onpoint-mailer.php:
+   12  <em style = 'font-weight:bold'>How soon can you provide service?</em>
+   13  <p><span class = 'comp-title'>on point locating</span> can usually provide services within 2 hours of same day service. </p>
+   14: 				<a href = \"http://631onpoint.com/\"><img src=\"http://631onpoint.com/images/TriFold_Brochure_outside.png\"/></a>
+   15: 				<a href = \"http://631onpoint.com/\"><img src=\"http://631onpoint.com/images/TriFold_Brochure_inside.png\"/></a>
+   16  			</html>
+   17  		";
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/sample-reports.php:
+   11  <div class='row'>
+   12  	<div class='col-md-6 col-sm-6 col-xs-6'>
+   13: 		<a href="images/onpoint-samplereport1.pdf" target="_blank"><img class='img-responsive' src="images/report-markout.png"/></a>
+   14  	</div>
+   15  	<div class='col-md-6 col-sm-6 col-xs-6'>
+   16: 		<a href="images/onpoint-samplereport2.pdf" target="_blank"><img class='img-responsive' src="images/report-slableak.png"/></a>
+   17  	</div>
+   18  </div>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/services.php:
+    8  <p>We specialize in the following services: (click for more information)</p>
+    9  <br/>
+   10: <h2><a class="link-in-container" href="gpr.php">Ground Penetrating Radar</a></h2>
+   11  <p>Ground Penetrating Radar (GPR) which uses electromagnetic waves to locate underground obstacles.</p>
+   12  <br/>
+   13: <h2><a class="link-in-container" href="utility-locating.php">Utility Locating</a></h2>
+   14  <p>Utility Locating allows <span class = 'comp-title'>on point locating</span> specialists to find underground utilities including sewers, pipes, and cables.</p>
+   15  <br/>
+   16: <h2><a class="link-in-container" href="camera-inspections.php">Camera Inspections</a></h2>
+   17  <p>Camera inspections help our clients visualize underground obstructions by using photography and videography to take direct images of underground structures.</p>
+   18  <br/>
+   19: <h2><a class="link-in-container" href="leak-detection.php">Leak Detection</a></h2>
+   20  <p>Leak detection helps pinpoint leakages in existing pipelines and water systems so that they can be fixed, minimizing disturbances to surrounding structures, saving both time and money.</p>
+   21  <br/>
+   22: <h2><a class="link-in-container" href="smoke-tests.php">Smoke Tests</a></h2>
+   23  <p>Do you have a foul smell or odor in your house that you are unable to locate? Chances are, this is actually a plumbing problem such as sewer gas escaping from the drainage system. </p>
+   24  <br/>
+   25: <h2><a class="link-in-container" href="thermal-camera-inspections.php">Thermal Camera Inspections</a></h2>
+   26  <p>Infrared thermography technology can locate anomalies in buildings, structures, and electrical/mechanical equipment.</p>
+   27  <br/>
+   28: <h2><a class="link-in-container" href="pool-line-leaks.php">Pool Line Leaks</a></h2>
+   29  <p><span class = 'comp-title'>on point locating</span> can help you locate pool line leaks efficiently and quickly with a specialized set of tools.</p>
+   30  </div>
+
+/Users/josephgoncalves/Documents/ronk-reskin/on_point_res/sitemap.php:
+    5  <?php include 'includes/header.php'; ?>
+    6  <div class="main-content" id="sitemap">
+    7: <p><a class='link-in-container' href="./index.php">HOME</a></p>
+    8  <hr/>
+    9: <p><a class='link-in-container' href="./about-us.php">About Us</a></p>
+   10: <p><a class='link-in-container' href="./contact.php">Contact Us</a></p>
+   11: <p><a class='link-in-container' href="./images/onpoint-pdf.pdf">Brochure</a></p>
+   12: <p><a class='link-in-container' href="./testimonials.php">Testimonials</a></p>
+   13  <hr/>
+   14: <p><a href="./services.php">Services</a></p>
+   15  <ul>
+   16: <li><a class='link-in-container' href="./gpr.php">GPR</a></li>
+   17: <li><a class='link-in-container' href="./leak-detection.php">Leak Detection</a></li>
+   18: <li><a class='link-in-container' href="./camera-inspections.php">Camera Inspections</a></li>
+   19: <li><a class='link-in-container' href="./utility-locating.php">Utility Locating</a></li>
+   20: <li><a class='link-in-container' href="./smoke-tests.php">Smoke Tests</a></li>
+   21: <li><a class='link-in-container' href="./pool-line-leaks.php">Pool Line Leaks</a></li>
+   22: <li><a class='link-in-container' href="./thermal-camera-inspections.php">Thermal Camera Inspections</a></li>
+   23  <ul>
+   24: <li><a class='link-in-container' href="./thermal-energy-loss.php">Energy Loss</a></li>
+   25: <li><a class='link-in-container' href="./thermal-electrical-inspections.php">Electrical Inspections</a></li>
+   26: <li><a class='link-in-container' href="./thermal-moisture-mold.php">Moisture and Mold Detection</a></li>
+   27: <li><a class='link-in-container' href="./thermal-roof-leaks.php">Roof Leaks</a></li>
+   28  </ul>
+   29  </ul>
+   30  <hr/>
+   31: <p><a class='link-in-container' href="./tech.php">Technology</a></p>
+   32: <p><a class='link-in-container' href="./faq.php">FAQ</a></p>
+   33: <p><a class='link-in-container' href="./sample-reports.php">Sample Reports</a></p>
+   34: <p><a class='link-in-container' href="./cost-effective.php">Are Mark Outs Cost-Effective?</a></p>
+   35  
+   36  </div>
+
+66 matches across 10 files

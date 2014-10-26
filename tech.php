@@ -14,7 +14,7 @@
 		<p>Using electromagnetic waves, we specialize in Ground Penetrating Radar, the newest technology used in locating underground obstacles.</p>
 		<p>We offer locating services to help find underground utilities including sewers, pipes, and cables. </p>
 		<p>Camera inspections help our clients visualize underground obstructions by using photography and videography to take direct images of underground structures. </p>
-		<p>Leak detection helps pinpoint leakages in existing pipelines and water systems so that they can be fixed. This minimizes disturbances to surrounding structures, saving both time and money.</p></div>
+		<p>Leak detection helps pinpoint leakages in existing pipelines and water systems so that they can be fixed. This minimizes disturbances to surrounding structures, saving both time and money.</p>
 	</div>
 </div>
 <?php include 'includes/footer.php'; ?>

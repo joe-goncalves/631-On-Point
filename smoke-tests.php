@@ -5,7 +5,7 @@
 <?php include 'includes/header.php'; ?>
 <div class="row">
 	<div class='col-md-12'>
-		<h1>Smoke Tests</h1>
+		<h1 class='text-center head-standout'>Smoke Tests</h1>
 	</div>
 </div>
 <div class="row">
@@ -17,11 +17,11 @@
 </div>
 <div class="row">
 	<div class='col-md-6'>
-		<h2>Smoke Test Video Demonstration Part 1:</h2>
+		<h3>Smoke Test Video Demonstration Part 1:</h3>
 		<iframe src="//www.youtube.com/embed/50WFUc0Ne1I?rel=0" allowfullscreen></iframe>
 	</div>
 	<div class='col-md-6'>
-		<h2>Smoke Test Video Demonstration Part 2:</h2>
+		<h3>Smoke Test Video Demonstration Part 2:</h3>
 		<iframe src="//www.youtube.com/embed/xirGXIrORL4?rel=0" allowfullscreen></iframe>
 	</div>
 </div>

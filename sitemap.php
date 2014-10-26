@@ -11,7 +11,7 @@
 <p><a class='link-in-container' href="./images/onpoint-pdf.pdf">Brochure</a></p>
 <p><a class='link-in-container' href="./testimonials.php">Testimonials</a></p>
 <hr/>
-<p><a href="./services.php">Services</a></p>
+<p><a class='link-in-container' href="./services.php">Services</a></p>
 <ul>
 <li><a class='link-in-container' href="./gpr.php">GPR</a></li>
 <li><a class='link-in-container' href="./leak-detection.php">Leak Detection</a></li>
