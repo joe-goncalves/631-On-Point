@@ -11,7 +11,7 @@
 <div class='row'>
 	<div class='col-md-12'>
 		<h3 class='no-top-marg no-bot-marg'>Need to make sure all of your utilities are marked?</h3	>
-		<p>Here at On Point we have experts that can mark out jobs of any size.</p>
+		<p>We have experts that can mark out jobs of any size.</p>
 	</div>
 </div>
 <div class='row'>
@@ -24,12 +24,11 @@
 		<div class='row'>
 			<div class="panel panel-default">
 		  		<div class="panel-body row">
-		  			<div class='col-md-3'>
-		    			<img src='./images/mayne_rev.jpg'/>	
+		  			<div class='col-md-3 col-sm-3 col-xs-3'>
+		    			<img alt="" src='./images/mayne_rev.jpg'/>	
 		    		</div>
-		    		<div class='col-md-9'>
-		    			<quote>“I needed a markout done in the city, and these guys got there on time. They did a very thorough job, and now they are my go-to guys for markouts.”</quote>
-		    				<br>
+		    		<div class='col-md-9 col-sm-9 col-xs-9'>
+		    			<p>“I needed a markout done in the city, and these guys got there on time. They did a very thorough job, and now they are my go-to guys for markouts.”</p>
 		    			<em>- Joe Ferrara, Mayne Construction</em>
 					</div>
 		  		</div>
@@ -54,57 +53,57 @@
 	<div class='col-md-6 right-demarked'>
 		<div class='row'>
 			<div class='col-md-12'>
-				<h2 class='text-center'><small><i class="fa fa-building"></i></small><i class="fa fa-building"></i>&nbsp;Previous Projects&nbsp;<i class="fa fa-building"></i><small><i class="fa fa-building"></i></small></h2>
+				<h2>Previous Projects</h2>
 			</div>
 		</div>
 		<div class='row'>
 			<div class='col-md-12'>
-				Marked out a complex network of utilities in a proposed work area for a community college
+				<p>We marked out a complex network of utilities in a proposed work area for a community college.</p>
 			</div>
 		</div>
 		<div class='row'>
 			<div class='col-md-4 col-sm-4'>
-				<img src="./images/community college 3.jpg" class='img-responsive thumbnail' alt=""/>
+				<img src="./images/communitycollege3.jpg" class='img-responsive thumbnail' alt=""/>
 			</div>
 			<div class='col-md-4 col-sm-4'>
-				<img src="./images/community college 1.jpg"  class='img-responsive thumbnail' alt=""/>
+				<img src="./images/communitycollege1.jpg"  class='img-responsive thumbnail' alt=""/>
 			</div>
 			<div class='col-md-4 col-sm-4'>
-				<img src="./images/community college 2.jpg" class='img-responsive thumbnail' alt=""/>
-			</div>
-		</div>
-		<div class='row'>
-			<div class='col-md-12'>
-				<hr>
-				Located air lines and surrounding utilities at a sewage treatment plant
-			</div>
-		</div>
-		<div class='row'>
-			<div class='col-md-4 col-sm-4'>
-				<img src="./images/2014-10-21 15.22.59.jpg"  class='img-responsive thumbnail' alt=""/>
-			</div>
-			<div class='col-md-4 col-sm-4'>
-				<img src="./images/2014-10-21 15.23.06.jpg" class='img-responsive thumbnail' alt=""/>
-			</div>
-			<div class='col-md-4 col-sm-4'>
-				<img src="./images/2014-10-21 15.23.12.jpg" class='img-responsive thumbnail' alt=""/>
+				<img src="./images/communitycollege2.jpg" class='img-responsive thumbnail' alt=""/>
 			</div>
 		</div>
 		<div class='row'>
 			<div class='col-md-12'>
 				<hr>
-				Marked all the utilities in the area of a tank excavation at a gas station.
+				<p>We located air lines and surrounding utilities at a sewage treatment plant.</p>
 			</div>
 		</div>
 		<div class='row'>
 			<div class='col-md-4 col-sm-4'>
-				<img src="./images/2014-10-21 09.14.59.jpg"  class='img-responsive thumbnail' alt=""/>
+				<img src="./images/2014-10-2115.22.59.jpg"  class='img-responsive thumbnail' alt=""/>
 			</div>
 			<div class='col-md-4 col-sm-4'>
-				<img src="./images/2014-10-21 09.14.54.jpg" class='img-responsive thumbnail' alt=""/>
+				<img src="./images/2014-10-2115.23.06.jpg" class='img-responsive thumbnail' alt=""/>
 			</div>
 			<div class='col-md-4 col-sm-4'>
-				<img src="./images/2014-10-21 09.14.50.jpg" class='img-responsive thumbnail' alt=""/>
+				<img src="./images/2014-10-2115.23.12.jpg" class='img-responsive thumbnail' alt=""/>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-12'>
+				<hr>
+				<p>We marked all the utilities in the area of a tank excavation at a gas station.</p>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-2109.14.59.jpg"  class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-2109.14.54.jpg" class='img-responsive thumbnail' alt=""/>
+			</div>
+			<div class='col-md-4 col-sm-4'>
+				<img src="./images/2014-10-2109.14.50.jpg" class='img-responsive thumbnail' alt=""/>
 			</div>
 		</div>
 	</div>

@@ -10,10 +10,10 @@
 </div>
 <div class='row'>
 	<div class='col-md-6 col-sm-6 col-xs-6'>
-		<a href="images/onpoint-samplereport1.pdf" target="_blank"><img class='img-responsive' src="images/report-markout.png"/></a>
+		<a href="images/onpoint-samplereport1.pdf" target="_blank"><img alt="" class='img-responsive' src="images/report-markout.png"/></a>
 	</div>
 	<div class='col-md-6 col-sm-6 col-xs-6'>
-		<a href="images/onpoint-samplereport2.pdf" target="_blank"><img class='img-responsive' src="images/report-slableak.png"/></a>
+		<a href="images/onpoint-samplereport2.pdf" target="_blank"><img alt="" class='img-responsive' src="images/report-slableak.png"/></a>
 	</div>
 </div>
 <?php include 'includes/footer.php'; ?>

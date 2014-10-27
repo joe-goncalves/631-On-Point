@@ -14,19 +14,19 @@
 	</div>
 </div>
 <div class='row'>
-	<div class='col-md-6'>		
+	<div class='col-md-6 col-sm-6'>		
 		<img src="./images/pool-leak-01.png" class='img-responsive thumbnail' alt="pressurize and identify leaking line"/>
 	</div>
-	<div class='col-md-6'>		
+	<div class='col-md-6 col-sm-6'>		
 		<img src="./images/pool-leak-02.png" class='img-responsive thumbnail' alt="snake and locate the line underground"/>
 	</div>
 </div>
 <div class='row'>
-	<div class='col-md-6'>		
+	<div class='col-md-6 col-sm-6'>		
 		<img src="./images/pool-leak-03.png" class='img-responsive thumbnail' alt="pinpoint the leak location with acoustic equipment"/>
 	</div>
-	<div class='col-md-6'>		
-		<img src="./images/pool-leak-04.png" class='img-responsive thumbnail'alt="find smaller leaks with sensitive helium testers"/>
+	<div class='col-md-6 col-sm-6'>		
+		<img src="./images/pool-leak-04.png" class='img-responsive thumbnail' alt="find smaller leaks with sensitive helium testers"/>
 	</div>
 </div>
 <?php include 'includes/footer.php'; ?>

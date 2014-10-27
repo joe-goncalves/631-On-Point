@@ -2,15 +2,15 @@
 	<script>
 		$(document).ready(function(){
 			$('html, body').animate({
-        		scrollTop: $("h1").offset().top
+        		scrollTop: $("h2").offset().top-40
     		}, 1000);
 
 		});	
 	</script>
-	<div class='col-md-2'>
+	<div class='col-md-2 col-sm-3 hidden-xs'>
 		<img src="./images/BA1D.jpg" alt="Thermal Camera Inspections">
 	</div>
-	<div class='col-md-10'>
+	<div class='col-md-10 col-sm-9 col-xs-12'>
 		<h1 class='text-center head-standout' style="line-height:56px">Thermal Camera inspections</h1>
 	</div>
 </div>

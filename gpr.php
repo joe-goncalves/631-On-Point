@@ -13,7 +13,7 @@
 		<p>Ground-penetrating radar is one of the many tools used by <span class = 'comp-title'>on point locating</span> to perform a thorough investigation for buried objects. As our GPR instrument is rolled along the ground, the received signal is shown on the screen, allowing a trained operator to determine the location of buried oil tanks, cesspools, or other objects.</p>
 		<div class='row'>
 			<div class='col-md-12'>
-				<img class='thumbnail' src='./images/gpr-how-it-works.png' class='img-responsive'/>
+				<img class='thumbnail img-responsive' src='./images/gpr-how-it-works.png' alt="" />
 				Ground Penetrating Radar will:
 				<ul>
 					<li>Locate underground objects that cannot be detected using other methods.</li>
@@ -40,12 +40,11 @@
 		<div class='row'>
 			<div class="panel panel-default">
 			  <div class="panel-body row">
-			  	<div class='col-md-3'>
-			    	<img src='./images/mayne_rev.jpg'/>	
+			  	<div class='col-md-3 col-sm-3 col-xs-3'>
+			    	<img alt="" src='./images/mayne_rev.jpg'/>	
 			    </div>
-			    <div class='col-md-9'>
-			    	<quote>“I needed a markout done in the city, and these guys got there on time. They did a very thorough job, and now they are my go-to guys for markouts.”</quote>
-			    	<br>
+			    <div class='col-md-9 col-sm-9 col-xs-9'>
+			    	<p>“I needed a markout done in the city, and these guys got there on time. They did a very thorough job, and now they are my go-to guys for markouts.”</p>
 			    	<em>- Joe Ferrara, Mayne Construction</em>
 				</div>
 			  </div>
@@ -53,12 +52,12 @@
 		</div>	
 		<div class='row'>
 			<div class='col-md-12'>
-				<h2 class='text-center'><small><i class="fa fa-building"></i></small><i class="fa fa-building"></i>&nbsp;Previous Projects&nbsp;<i class="fa fa-building"></i><small><i class="fa fa-building"></i></small></h2>
+				<h2>Previous Projects</h2>
 			</div>
 		</div>
 		<div class='row'>
 			<div class='col-md-12'>
-				Located 30 underground cesspools for sampling, at a large office complex.
+				<p>We located 30 underground cesspools for sampling, at a large office complex.</p>
 		</div>
 		</div>
 		<div class='row'>
@@ -75,7 +74,7 @@
 		<div class='row'>
 			<div class='col-md-12'>
 				<hr>
-				Cleared soil boring locations on a 2-acre property
+				<p>We cleared soil boring locations on a 2-acre property.</p>
 			</div>
 		</div>
 		<div class='row'>
@@ -92,7 +91,7 @@
 		<div class='row'>
 			<div class='col-md-12'>
 				<hr>
-				Investigated extent of sinkholes under a long private driveway
+				<p>We investigated the extent of sinkholes under a long private driveway.</p>
 			</div>
 		</div>
 		<div class='row'>

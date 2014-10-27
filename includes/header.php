@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
    <?php 
-   /*
+   
 	 if (substr($_SERVER["SERVER_NAME"],0,3) != "www"){
 		    header("HTTP/1.1 301 Moved Permanently");
         header("Location: ".$canonical);
    }
-   */
+  
    ?>
   </head>
 	<body>
@@ -36,9 +36,12 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=153733728017142&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div id="content" class="container-fluid">
   <div id="header-content">
-    <a href="/"><img src='./images/on-point.jpg' class='img-responsive' alt="On Point Locating - Utility Mark Out Specialists"/></a>
+    <a  class="btn btn-success visible-xs" href="tel:+16316676468">Call On Point Now!</a>
+    <a  class="btn btn-success hidden-xs" href="contact.php">Get a Free Quote Now!</a>
+    <a href="/" class="hidden-xs"><img src='./images/on-point.jpg' class='img-responsive' alt="On Point Locating - Utility Mark Out Specialists"/></a>
+    <a href="/" class="visible-xs mobile-logo"><img src='./images/header-mobile.jpg' alt="On Point Locating - Utility Mark Out Specialists"/></a>
+    <a class="visible-xs header-phone" href="tel:+16316676468"><i class='fa fa-phone'></i>&nbsp;631-On Point</a>
     <nav class="navbar navbar-default" role="navigation" id='nav-holder'>
       <div class="container-fluid">
           <div class="navbar-header">
@@ -48,9 +51,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>  
               </button>
-              <a  class="btn btn-success visible-xs" href="tel:+16316676468">Call Now!</a>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" id = 'nav-holder'>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
           <ul class="nav navbar-nav">
               <li>
                 <a href="index.php">Home</a>
@@ -58,9 +60,10 @@
               <li>
                 <a data-toggle="dropdown" class="dropdown-toggle">About Us</a>
                 <ul class="dropdown-menu" role="menu">
+                  <li><a href="contact.php">Contact Us</a></li>
                   <li><a href="about-us.php">The Company</a></li>
                   <li><a href="faq.php">FAQ</a></li>
-                  <li><a href="contact.php">Contact Us</a></li>
+                  <li><a href="testimonials.php">Testimonials</a></li>
                   <li><a href="./images/onpoint-pdf.pdf" target="_blank">Download Our Brochure</a></li>
                 </ul>
               </li>

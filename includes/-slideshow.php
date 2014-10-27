@@ -7,19 +7,18 @@
     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
     <li data-target="#carousel-example-generic" data-slide-to="4"></li>
     <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
   </ol>
   
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="./images/home-page-slider/2014-09-09_10.04.40.jpg" alt="">
+      <img src="./images/home-page-slider/opslideshow1.jpg" alt="">
       <div class="carousel-caption">
       </div>
     </div>
 
     <div class="item">
-      <img src="./images/home-page-slider/acoustic_location.jpeg" alt="">
+      <img src="./images/home-page-slider/opslideshow2.jpg" alt="">
       <div class="carousel-caption">
       </div>
     </div>
@@ -31,19 +30,19 @@
     </div>
     -->
     <div class="item">
-      <img src="./images/home-page-slider/markout-large_save.jpg" alt="b">
+      <img src="./images/home-page-slider/opslideshow3.jpg" alt="b">
       <div class="carousel-caption">
       </div>
     </div>
 
     <div class="item">
-      <img src="./images/home-page-slider/markouts1.png" alt="">
+      <img src="./images/home-page-slider/opslideshow4.jpg" alt="">
       <div class="carousel-caption">
       </div>
     </div>
 
     <div class="item">
-      <img src="./images/home-page-slider/office-staff.png" alt="">
+      <img src="./images/home-page-slider/opslideshow5.jpg" alt="">
       <div class="carousel-caption">
       </div>
     </div>

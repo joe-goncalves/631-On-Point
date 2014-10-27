@@ -108,33 +108,32 @@ $(document).ready(function() {
 	</div>
 </div>
 <div class='row'>
-	<div class="col-md-6">	
-		<form method="post" role='false' name="contactForm" id="contactForm">
+	<div class="col-md-6 col-sm-12">	
+		<form method="post" name="contactForm" id="contactForm">
 			<div class="form-group">
 				<label class="<?=$nm_error_status?>" for="name">Name<span class="hidden <?=$nm_error_status?>">*</span></label>
-				<input class="form-control" type='text' name="name" value="<?=$name?>"/>
+				<input class="form-control" type='text' id="name" name="name" value="<?=$name?>"/>
 			</div>
 			<div class="form-group">
 			<label class="<?=$email_error_status?>" for="email">Email Address<span class="hidden <?=$email_error_status?>">*</span></label>
-			<input class="form-control" type='text' name="email" value="<?=$email?>"/>
+			<input class="form-control" type='text' id="email" name="email" value="<?=$email?>"/>
 			</div>
 			<div class="form-group">
 			<label class="<?=$sub_error_status?>" for="subject">Subject<span class="hidden <?=$sub_error_status?>">*</span></label>
-			<input class="form-control" type='text' name="subject" value="<?=$subject?>"/>
+			<input class="form-control" type='text' id="subject" name="subject" value="<?=$subject?>"/>
 			</div>
 			<div class="form-group">
 			<label class="<?=$msg_error_status?>" for="msg">Message<span class="hidden <?=$msg_error_status?>">*</span></label>
-			<textarea class="form-control" name="msg"><?=$msg?></textarea>
+			<textarea class="form-control" id="msg" name="msg"><?=$msg?></textarea>
 			</div>
 			<input name='contactSubmit' class="btn btn-success" id='contactSubmit' type="submit">
 		</form> 
 	</div>
 	<div class="col-md-6">
 		<div class='row'>
-			<div class='col-md-4'>
-				<strong>Call Us:</strong>
-			</div>	
-			<div class='col-md-8'>
+			<hr class='visible-sm visible-xs'>
+			<div class='col-md-12 col-sm-6'>
+				<strong><i class="fa fa-phone"></i>&nbsp;Call Us:</strong>
 				<ul class='list-unstyled'>
 					<li>(631)-ONPOINT -or-</li>
 					<li>(631) 667-6468 – Suffolk County</li>
@@ -142,30 +141,25 @@ $(document).ready(function() {
 					<li>(862) 258-1895 – New Jersey</li>
 					<li>(203) 857-9901 – Connecticut</li>
 				</ul>
+				<strong><i class="fa fa-fax"></i>&nbsp;Fax:</strong>
+				<ul class="list-unstyled">
+					<li>(631) 589-1157</li>
+				</ul>
+				<strong><i class="fa fa-envelope"></i>&nbsp;Email:</strong>
+				<ul class="list-unstyled">
+					<li><a class='link-in-container' href="mailto:support@631onpoint.com">support@631onpoint.com</a></li>
+				</ul>
+				<strong><i class="fa fa-home"></i>&nbsp;Address:</strong>
+				<ul class="list-unstyled">
+					<li>
+						<address>
+				  			1170 Lincoln Avenue, Suite 4<br>
+				  			Holbrook, NY 11741<br>	
+						</address>
+					</li>
+				</ul>
 			</div>
-		</div>
-		<div class='row'>
-			<div class='col-md-4'>
-				<strong>Fax:</strong>
-			</div>
-			<div class='col-md-8'>
-				<p>(631) 589-1157<p>
-			</div>
-		</div>
-		<div class='row'>
-			<div class='col-md-4'>
-				<strong>Address:</strong>
-			</div>
-			<div class='col-md-8'>
-				<address>
-		  			1170 Lincoln Avenue, Suite 4<br>
-		  			Holbrook, NY 11741<br>	
-		  			<a href="mailto:support@631onpoint.com">support@631onpoint.com</a>
-				</address>
-			</div>
-		</div>
-		<div class='row'>
-			<div class="col-md-12">
+			<div class="col-md-12 col-sm-6">
 				<img class="right-photo" src="http://maps.googleapis.com/maps/api/staticmap?center=1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741&zoom=13&scale=false&size=500x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true&markers=size:mid%7Ccolor:green%7C1170+Lincoln+Avenue,+Suite+4+Holbrook,+NY+11741" alt="Google Map of 1170 Lincoln Avenue, Suite 4 Holbrook, NY 11741">
 			</div>
 		</div>

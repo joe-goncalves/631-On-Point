@@ -14,7 +14,7 @@
 		<p>On the private side, one of the most overlooked parts of a job process is the utility mark outs. Many people have told us that they believe the cost of a utility mark out was not justified. However, this opinion is voiced only before an unexpected setback, such as an underground electrical fault. Tens of thousands of dollars’ worth of damage to utilities has occurred in many cases, due to a decision to commence a project without performing a utility mark out.</p>
 	</div>
 	<div class='col-md-6'>
-		<p><img src="./images/markouts1.png" class="left-photo" alt="OnPoint Locating markouts are cost effective"/></p>
+		<p><img src="./images/markouts1.png" class="thumbnail" alt="OnPoint Locating markouts are cost effective"/></p>
 	</div>
 </div>	
 <div class='row'>
@@ -23,7 +23,7 @@
 		<p>Scenarios such as this are completely avoidable. Committing the initial expense of locating underground electrical lines, cesspools, tanks, and wells prior to starting a project can save you a large amount of both time and money. On Point Locating can help you mark out your property, clarifying the way forward, and reducing the risk of unexpected costs and delays.</p>
 	</div>
 	<div class='col-md-6'>
-		<p><img src="./images/markout-small.jpg" class="left-photo" alt="utility markouts on long island, new yrok"/></p>
+		<p><img src="./images/markout-small.jpg" class="thumbnail" alt="utility markouts on long island, new yrok"/></p>
 	</div>
 </div>	
 <?php include 'includes/footer.php'; ?>

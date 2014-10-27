@@ -9,6 +9,7 @@
 		<h2><em>We have become the "go-to guys" for leak detection.</em></h2>
 	</div>
 </div>
+
 <div class='row'>
 	<div class='col-md-6'>
 		We specialize in finding:
@@ -29,38 +30,43 @@
 		</ul>	
 	</div>
 </div>
+
 <hr style="margin-top:0;">
+
 <div class='row'>
 	<div class='col-md-12'>
 		<h2>Success Depends on the Proper Tools and Training</h2>
-		<div class="media">
-		  <a class="pull-left" href="#">
-		    <img class="media-object" src="./images/thermal_imaging.jpeg" style="width:200px" alt="...">
-		  </a>
-		  <div class="media-body">
-		    <h4 class="media-heading">Thermal Imaging</h4>
-		    A thermal imager can detect heat patterns on the surface of an object. Leak detection, water intrusion, and moisture retention are problems we can investigate using this tool. Click here for more info.
-		  </div>
-		</div>
-		<div class="media">
-		  <a class="pull-left" href="#">
-		    <img class="media-object" src="./images/helium_tester.jpeg" style="width:200px" alt="...">
-		  </a>
-		  <div class="media-body">
-		    <h4 class="media-heading">Helium Leak Detection</h4>
-		    When a line is pressurized with helium, the gas escapes through even the smallest leaks and cracks. We can pinpoint where the helium is escaping with sensitive detectors.
-		  </div>
-		</div>
-		<div class="media">
-		  <a class="pull-left" href="#">
-		    <img class="media-object" src="./images/acoustic_location.jpeg"  style="width:200px" alt="...">
-		  </a>
-		  <div class="media-body">
-		    <h4 class="media-heading">Acoustic Leak Detection</h4>
-		    Leaking fluids and gases produce sound waves, but they are often much too faint to hear with your own ears. Our acoustic leak detection equipment amplifies minute leak sounds, and reduces background noise to locate the source.
-		  </div>
-		</div>
 	</div>
+</div>
+<hr class='visible-xs'>
+<div class="row">
+	<div class="col-md-2 col-sm-3">
+		<img class="img-responsive thumbnail" src="./images/thermal_imaging.jpeg" alt="...">
+	</div>
+	<div class="col-md-10 col-sm-9">
+		<h4 class='no-top-marg'>Thermal Imaging</h4>
+		A thermal imager can detect heat patterns on the surface of an object. Leak detection, water intrusion, and moisture retention are problems we can investigate using this tool. Click here for more info.
+	</div>
+</div>
+<hr class='visible-xs'>
+<div class="row">
+	<div class="col-md-2 col-sm-3">
+		<img class="img-responsive thumbnail" src="./images/helium_tester.jpeg" alt="...">
+	</div>
+	<div class="col-md-10 col-sm-9">
+		<h4 class='no-top-marg'>Helium Leak Detection</h4>
+		When a line is pressurized with helium, the gas escapes through even the smallest leaks and cracks. We can pinpoint where the helium is escaping with sensitive detectors.
+	</div>
+</div>
+<hr class='visible-xs'>
+<div class="row">
+	<div class="col-md-2 col-sm-3">
+    	<img class="img-responsive thumbnail" src="./images/acoustic_location.jpeg" alt="...">
+   	</div>  
+   	<div class="col-md-10 col-sm-9">
+    	<h4 class='no-top-marg'>Acoustic Leak Detection</h4>
+    	Leaking fluids and gases produce sound waves, but they are often much too faint to hear with your own ears. Our acoustic leak detection equipment amplifies minute leak sounds, and reduces background noise to locate the source.
+  	</div>
 </div>
 
 <?php include 'includes/footer.php'; ?>
